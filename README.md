@@ -12,13 +12,7 @@ canku 是一个使用 nodejs 编写的多人订餐程序，使用了 [express](h
 5. 每订单有运气值功能，当日单店运气值最低的负责打电话点餐
 6. 用户可以取消订单，但是用户的运气值在当天依然生效（如果用户当天点了餐的话）。
 
-目前还在完善中，演示地址： [http://canku.willerce.com](http://canku.willerce.com)
 
-部署请参考，Noderce AppFog 部署指南：[http://willerce.com/post/noderce-deploy-to-appfog](http://willerce.com/post/noderce-deploy-to-appfog)
-
-## 简单的部署介绍
-
-    git clone git@github.com:willerce/canku.git
 
 你需要在本机启动好 MongoDB 服务，如果需要测试数据，请看[这里](https://github.com/willerce/canku/issues/17)
 
@@ -49,7 +43,7 @@ canku 是一个使用 nodejs 编写的多人订餐程序，使用了 [express](h
 
 (The MIT License)
 
-Copyright (c) 2013 willerce <willerce@gmail.com>
+Copyright (c) 2015 IMT
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
